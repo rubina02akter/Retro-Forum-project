@@ -26,9 +26,9 @@ const displayLatestCard = posts => {
             alt="Shoes" />
         </figure>
         <div class=" space-y-3 mt-6">
-          <p class="text-gray-400">${posted_date}</p>
-          <h2 class="font-bold text-2xl">${title}</h2>
-          <p class="">${description}</p>
+          <p class="text-gray-500">${posted_date}</p>
+          <h2 class="font-bold text-xl">${title}</h2>
+          <p class="text-sm">${description}</p>
         </div>
         <div class="py-5">
       
@@ -44,7 +44,7 @@ const displayLatestCard = posts => {
       
           <div class="">
             <h2 class="font-bold text-xl">${name}</h2>
-              <p class="text-gray-400">${designation}</p>
+              <p class="text-gray-500">${designation}</p>
           </div>
       
         </div>
